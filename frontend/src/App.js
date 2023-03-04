@@ -1,7 +1,7 @@
-export default function App() {
+const App=()=> {
   return (
     <>
-    <h1 className="text-1xl font-bold underline">
+    <h1 className="text-1xl font-bold underline hover:bg-blend-color-dodge">
 
       Hello world!
     </h1>
@@ -10,3 +10,5 @@ export default function App() {
     
   )
 }
+
+export default App
