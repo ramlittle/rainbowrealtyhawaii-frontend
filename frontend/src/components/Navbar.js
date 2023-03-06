@@ -16,7 +16,7 @@ const Navbar=()=>{
     //OTHER VARIABLES
     const navClasses=`${showElement} flex-col lg:flex`;
     return(
-        <section className='sticky top-1 bg-red-200'>
+        <section className='z-10 sticky top-1 bg-red-200'>
             <section>
                 <button className='lg:hidden p-2 hover:bg-blue-500'
                     onClick={showMenu}>
